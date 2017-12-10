@@ -33,11 +33,12 @@ public class ShowName extends HttpServlet {
         response.setContentType("text/html");
         String name = request.getParameter("name");
         
-        if(name.isEmpty())
+        if(name.isEmpty()) {
            name = "No Body";
-        else
+        }else {
            name = request.getParameter("name");
-        
+        }
+		
         try (PrintWriter out = response.getWriter()) {
             out.printf("<!DOCTYPE html>\n"
                     + "<html lang=\"pt-br\">\n"
