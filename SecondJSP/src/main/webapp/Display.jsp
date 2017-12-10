@@ -6,7 +6,7 @@
 
 <%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%! String[] names = {"Yusha", "Houssam", "Amine", "Felipino"};
+<%! String[] names = {"Yusha", "Houssam", "Amine", "Felipino", "DJ Khaldi"};
     Date today; %>
 <!DOCTYPE html>
 <html lang="pt-br">
