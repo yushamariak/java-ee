@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/libs/jquery/jquery-3.2.1.js" type="text/javascript"></script>
+        <script src="js/codigo.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <div id="result"></div>
+        
+        <form id="idForm1">
+            <input type="button" value="Simple call" id="button1"><br>            
+            <br>
+            <input type="button" value="Call receiving values" id="button2">
+            <p><label for="idValueForm">Value to be sent:</label><input type="text" name="valueForm" id="idValueForm"></p>
+            <input type="button" value="Call sending some values of a form" id="button3">
+        </form>
+        
+        <form id="idForm2">
+            <h3>Cadastro de Pessoas e Cachorros <br /></h3>
+            <table width="400">
+                <tr><td> Nome: </td> <td> <input type="text" name="nome"> </td>
+                <tr><td> Endereço: </td> <td> <input type="text" name="endereco"> </td>
+                <tr><td> Sexo: </td> <td> <input type="radio" name="sexo" value="masculino" checked>Masculino <br>
+                        <input type="radio" name="sexo" value="feminino">Feminino  </td>
+                <tr><td> Data de Nascimento: </td> <td> <input type="text" name="nascimento"> </td>
+                <tr><td> Telefone 1: </td> <td> <input type="text" name="telefone"> </td>
+                <tr><td> Telefone 2: </td> <td> <input type="text" name="telefone"> </td>
+                <tr><td> Email 1: </td> <td> <input type="text" name="email"> </td>
+                <tr><td> Email 2: </td> <td> <input type="text" name="email"> </td>
+                <tr><td> Nome do cachorro: </td> <td> <input type="text" name="nomeCachorro"> </td>
+                <tr><td> Raça do cachorro: </td> <td> <input type="text" name="racaCachorro"> </td>
+                <tr><td> Sexo do cachorro: </td> <td> <input type="radio" name="sexoCachorro" value="macho" checked>Macho <br>
+                        <input type="radio" name="sexoCachorro" value="femea">Femea <br> </td>
+            </table>
+            <br>
+            <input type="button" value="Chamada Enviando um Form Completo" id="botao4">
+        </form>
+        
+    </body>
+</html>
