@@ -1,9 +1,7 @@
-# Exercise 1
-
-## My First Servlet
+# My First Servlet
 Requirements:
 
 * Maven
 * Apache TomCat
 
-# Introduction
+> PS.: All exercises has been done in Netbeans IDE.
